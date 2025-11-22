@@ -176,6 +176,18 @@ const App = () => {
                         </span>
                       ))}
                     </div>
+                    {product.link && product.link !== "#" && (
+  <a 
+    href={product.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
+    onClick={(e) => e.stopPropagation()}
+  >
+    View Live Project
+    <ExternalLink size={16} />
+  </a>
+)}
                   </div>
                 </div>
               )}
