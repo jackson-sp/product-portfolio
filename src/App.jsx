@@ -13,7 +13,7 @@ const App = () => {
       problem: "Current scheduling tools are clunky and don't account for preferences or meeting fatigue.",
       solution: "Smart scheduling that learns from user behavior and optimizes for everyone's productivity.",
       tech: ["React", "Claude API", "Calendar Integration"],
-      link: "#"
+      link: "https://letsmeet-jp.vercel.app"
     },
     {
       id: 2,
